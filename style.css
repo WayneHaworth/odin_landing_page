@@ -1,0 +1,31 @@
+:root {
+    --dark-background: #1F2937;
+    --off-white: #F9FaF8;
+    --blue: #3882f6;
+    --light-grey: #e5e7eb;
+
+    font-family: "Roboto";
+}
+
+.container { max-width: 1100px; margin: 0 auto;}
+
+.hero {
+    background: var(--dark-background);
+}
+.hero .hero__header {
+    display: flex;
+    justify-content: space-between;
+    padding:20px 0;
+}
+.hero .hero__header h1 {
+    font-size: 24px;
+    color: var(--off-white);
+}
+.hero .hero__header ul { display: flex; gap: 20px;}
+.hero .hero__header ul li { list-style: none;}
+.hero .hero__header ul li a {
+    font-size: 18px;
+    color: var(--light-grey);
+    text-decoration: none;
+}
+
